@@ -1,0 +1,43 @@
+/* Простые стили для логотипов партнеров - только фото */
+.employer-logo, .benefit-logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.partner-logo {
+    max-width: 150px;
+    height: auto;
+    display: inline-block;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .partner-logo {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .partner-logo {
+        max-width: 100px;
+    }
+}
+
+/* Стили для описания в модальном окне галереи */
+.image-description {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #555;
+    font-size: 1rem;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+/* Адаптивность для модального окна */
+@media (max-width: 768px) {
+    .image-description {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
